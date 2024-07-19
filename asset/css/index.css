@@ -136,6 +136,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 10vh;
 
 }
 
@@ -145,14 +146,23 @@ header {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-    color: #00364c;
+    
+}
+.bg-perso{
+    background-color: #f994c8c3;
 }
 
+h1{
+    padding-left:10%;
+    color: white;
+    font-family: "Pacifico", cursive;
 
 
+}
 .main_title {
     color: #00364c;
-    padding-top: 10%;
-    padding-left: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
     font-size: 60px;
 }
+

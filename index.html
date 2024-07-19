@@ -19,9 +19,10 @@
   <header>
     <nav class="navbar navbar-expand-lg pb-5 ">
       <div class="nav container-fluid">
-        <a class="navbar-brand" href="#"><img class="col-6 px-1" src="asset/images/logo/logoStudiVoyages.png" alt="logo"></a>
+        <a class="navbar-brand" href="#"><img class="col-6 px-1" src="asset/images/logo/logoTravel.png"
+            alt="logo"></a>
         <div class="collapse navbar-collapse col-8" id="navbarNav">
-          <ul class="navbar-nav bg-info form-control justify-content-between align-items-center">
+          <ul class="navbar-nav form-control justify-content-between bg-perso align-items-center">
             <li class="nav-item pacifico-regular">
               <a class="nav-link active opacity-75 " aria-current="page" href="#">Les plus
                 recherchés</a>
@@ -35,70 +36,247 @@
                 minutes</a>
             </li>
             <li class="nav-item pacifico-regular">
-              <a class="nav-link active  opacity-75   " aria-current="page" aria-disabled="true"
-                href="#"><svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="24px"
-                  fill="#000000">
+              <a class="nav-link active  opacity-75   " aria-current="page" aria-disabled="true" href="#"><svg
+                  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 -960 960 960" width="1em" fill="#000000">
                   <path
                     d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z" />
                 </svg> Tel:01 02 03 04 05 </a>
             </li>
             <li class="nav-item pacifico-regular">
-              <button class="bg-white form-control  opacity-75  "><a class="nav-link active " aria-current="page" href="#">Connectez-vous</a></button>
+              <button class="bg-white form-control  opacity-75  "><a class="nav-link active " aria-current="page"
+                  href="#">Connectez-vous</a></button>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="container pt-5 pb-5">
-      <h2 class="pacifico-regular">Votre prochaine destination?</h2>
+      <h1 class="">Votre prochaine destination?</h1>
     </div>
-      <form class="d-flex justify-content-center">
-        <div class="row d-flex justify-content-between">
-          <div class="col pacifico-regular">
-            <label for="destination ">Destination</label>
-            <input type="text" class="form-control" id="destination" placeholder="Entrez le pays" name="destination">
-          </div>
-          <div class="col pacifico-regular">
-            <label for="depart">Départ</label>
-            <input type="text" class="form-control" id="depart" placeholder="Entrez la ville" name="depart">
-          </div>
-          <div class="col pacifico-regular">
-            <label for="duree">Durée</label>
-            <input type="text" class="form-control" id="duree" placeholder="Entrez la durée" name="duree">
-          </div>
-          <div class="col pacifico-regular">
-            <label for="date-depart">Date de départ</label>
-            <input type="date" class="form-control" id="date-depart" name="date-depart">
-          </div>
-          <div class="col d-flex align-items-end">
-            <button type="submit" class=" btn btn-default align-text-center bg-info pacifico-regular">Rechercher</button>
-          </div>
+    <form class="d-flex justify-content-center">
+      <div class="row d-flex justify-content-between">
+        <div class="col pacifico-regular text-white">
+          <label for="destination" class="fs-4 pb-1">Destination</label>
+          <input type="text" class="form-control" id="destination" placeholder="Entrez le pays" name="destination">
         </div>
-      </form>
-    
-
-    <h1 class="main_title pacifico-regular">Vers l'infini et au delà...</h1>
-  </header>
-
-  <section class="container col-5">
-    <div id="carouselExample" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="asset/images/pexels-jeremy-bishop-1260133-2765869.jpg" class="d-block w-100" alt="...">
+        <div class="col pacifico-regular text-white">
+          <label for="depart"class="fs-4 pb-1">Départ</label>
+          <input type="text" class="form-control" id="depart" placeholder="Entrez la ville" name="depart">
         </div>
-        <div class="carousel-item">
-          <img src="asset/images/pexels-leah-newhouse-50725-618902.jpg" class="d-block w-100" alt="...">
+        <div class="col pacifico-regular text-white">
+          <label for="duree"class="fs-4 pb-1">Durée</label>
+          <input type="text" class="form-control" id="duree" placeholder="Entrez la durée" name="duree">
+        </div>
+        <div class="col pacifico-regular text-white">
+          <label for="date-depart" class="fs-4 pb-1" w>Date de départ</label>
+          <input type="date" class="form-control" id="date-depart" name="date-depart">
+        </div>
+        <div class="col d-flex align-items-end">
+          <button type="submit" class=" btn btn-default align-text-center bg-perso pacifico-regular">Rechercher</button>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </form>
+    <h1 class="main_title pacifico-regular text-white px-5">Vers l'infini et au delà...<img src="asset/images/plane.png"style="width: 80px;" ></h1>
+  </header>
+
+  <!--Section les plus recherchés-->
+
+  <section class="container-fluid column les_plus_recherches">
+    <h2 class="pacifico-regular  px-5 pb-5">Les plus recherchés</h2>
+
+    <!--les cards-->
+
+    <div class="container">
+      <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/japon.png" class="card-img-top" alt="photoJapon">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/paradis.png" class="card-img-top" alt="photoParadis">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/plage.png" class="card-img-top" alt="photoPlage">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/couche.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/highland.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/montagne.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/safari.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/images/stbarth.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container col-6 pt-5 pb-5">
+    <div id="carousel" class="carousel slide " data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="asset/images/venise.png" class="d-block w-100" alt="photoVenise">
+          <div class="carousel-caption d-none d-md-block align-top">
+            <h5 class="text-uppercase text-body-white">nos offres de dernière minute</h5>
+            <p class="text-body-white">Venise</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="asset/images/vigne.png" class="d-block w-100" alt="photoVigne">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-uppercase text-body-white ">nos offres de dernière minute</h5>
+            <p class=" text-body-white">La Toscane</p>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="asset/images/paris.png" class="d-block w-100" alt="photoParis">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="text-uppercase text-body-white ">nos offres de dernière minute</h5>
+            <p class=" text-body-white">Paris</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev position-absolute top-25" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <button class="carousel-control-next position-absolute top-25" type="button" data-bs-target="#carousel" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </div>
   </section>
   <section></section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
